@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+
+    <h1>Formulir Pendaftaran Siswa</h1>
+
+    <form action="#" method="post">
+
+        <label>Nama Lengkap:</label>
+        <br>
+        <input type="text" name="nama"
+               placeholder="Masukkan nama lengkap">
+        <br><br>
+
+        <label>Email:</label>
+        <br>
+        <input type="email" name="email"
+               placeholder="Masukkan email">
+        <br><br>
+
+        <label>Password:</label>
+        <br>
+        <input type="password" name="password"
+               placeholder="Masukkan password">
+        <br><br>
+
+        <label>Jenis Kelamin:</label>
+        <br>
+
+        <input type="radio" name="gender" value="Laki-laki">
+        Laki-laki
+
+        <input type="radio" name="gender" value="Perempuan">
+        Perempuan
+
+        <br><br>
+
+        <label>Hobi:</label>
+        <br>
+
+        <input type="checkbox" name="hobi" value="Membaca">
+        Membaca
+
+        <input type="checkbox" name="hobi" value="Olahraga">
+        Olahraga
+
+        <input type="checkbox" name="hobi" value="Musik">
+        Musik
+
+        <br><br>
+
+        <label>Pilih Jurusan:</label>
+        <br>
+
+        <select name="jurusan">
+            <option value="">-- Pilih Jurusan --</option>
+            <option value="RPL">RPL</option>
+            <option value="TKJ">TKJ</option>
+            <option value="DKV">DKV</option>
+        </select>
+
+        <br><br>
+
+        <label>Alamat:</label>
+        <br>
+
+        <textarea name="alamat"
+                  rows="4"
+                  cols="30"
+                  placeholder="Masukkan alamat"></textarea>
+
+        <br><br>
+
+        <button type="submit">Daftar</button>
+
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
